@@ -1,0 +1,110 @@
+
+@media(min-width:989px){
+    .history-item{
+        border:1px solid lightgray;
+        padding: 10px;
+        border-radius:16px;
+        list-style: none;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    .status-failed, status-pass{
+        font-size: 12px;
+    }
+    
+    .history-item div{
+        margin-bottom: 5px;
+    }
+    .hover-details {
+        position: absolute;
+        left: -320px; /* Position to the right of the list item */
+        top: 0;
+        width: 300px;
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 12px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        z-index: 1000;
+    }
+}
+
+@media(max-width:990px){
+    .history-item{
+        border:1px solid lightgray;
+        padding: 10px;
+        border-radius:16px;
+        list-style: none;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .history-list{
+        margin:0 auto;
+        
+    }
+    .status-failed, status-pass{
+        font-size: 10px;
+    }
+    .hover-details {
+        position: absolute;
+        bottom: -350px; /* Position to the right of the list item */
+        top: 0;
+        width: 300px;
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 12px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        z-index: 1000;
+    }
+    
+    .history-item div{
+        margin-bottom: 5px;
+    }
+}
+
+.history-title{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+
+
+.history-item {
+    position: relative; /* Required for absolute positioning of hover-details */
+}
+
+.timestamps-container {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.timestamp-item {
+    margin: 4px 0;
+    display: flex;
+    gap: 8px;
+}
+
+.timestamp-time {
+    white-space: nowrap;
+    color: #666;
+}
+
+.timestamp-text {
+    flex: 1;
+    word-break: break-word;
+}
+
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 4px;
+}
+
+.tag {
+    background: #f0f0f0;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+}

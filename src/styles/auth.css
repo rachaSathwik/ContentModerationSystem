@@ -1,0 +1,82 @@
+@media (min-width: 990px) {
+  .login-box {
+    margin: 100px auto;
+    width: fit-content;
+    border: 1px lightgray solid;
+    border-radius: 16px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 500;
+    font-size: 25px;
+  }
+
+  .login-form {
+    padding: 30px;
+    text-align: center;
+  }
+  .auth-inp {
+    margin-bottom: 15px;
+    margin-left: 10px;
+    border: none;
+    padding: 10px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 300;
+    font-size: 24px;
+    align-items: center;
+  }
+
+  .auth-btn {
+    background-color: black;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 300;
+    font-size: 25px;
+  }
+  a {
+    font-size: 18px;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 989px) {
+  .visible-btn {
+    width: 15px;
+  }
+  .login-box {
+    margin: 100px auto;
+    width: fit-content;
+    border: 1px lightgray solid;
+    border-radius: 12px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 300;
+    font-size: 12px;
+  }
+
+  .login-form {
+    padding: 10px;
+    text-align: center;
+  }
+  .auth-inp {
+    margin-bottom: 8px;
+    margin-left: 5px;
+    border: none;
+    padding: 5px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12px;
+  }
+
+  .auth-btn {
+    background-color: black;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  a {
+    font-size: 10px;
+    margin-top: 16px;
+  }
+}
